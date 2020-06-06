@@ -37,30 +37,26 @@ main {
     margin: 0 30px;
 }
 
+
+
 .pic_1 {
-    width: 280px;
-    height: 150px;
     background-image: url(img/flow01.png);
-    background-size: cover;
-    background-position: center;
 }
 
 .pic_2 {
-    width: 280px;
-    height: 150px;
     background-image: url(img/flow02.png);
-    background-size: cover;
-    background-position: center;
 }
 
 .pic_3 {
+    background-image: url(img/flow03.png);
+}
+.pic {
     width: 280px;
     height: 150px;
-    background-image: url(img/flow03.png);
+    margin: 0 auto;
     background-size: cover;
     background-position: center;
 }
-
 .title {
     margin: 10px 0;
     font-size: 20px;
@@ -73,6 +69,7 @@ main {
     .box {
         float: none;
         margin: 0 auto;
+        width: 100%;
     }
     .center {
         margin: 20px auto;
